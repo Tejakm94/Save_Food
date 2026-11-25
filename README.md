@@ -5,10 +5,12 @@ React/Vite starter for a food-rescue network connecting surplus-food donors (hot
 ## Implemented front-end workflows
 
 - Public landing page with separate donor, receiver and administrator entry points.
+- Demo donor and receiver registration forms for business / organisation type, city and contact phone.
 - Donor workspace: list surplus food with quantity, category, safe collection deadline, notes and a photo-input placeholder.
 - Receiver workspace: submit requirements with quantity, unit, meal preference, city and required-by time.
 - Illustrative Karnataka receiver directory: Bengaluru, Mysuru and Tumakuru.
-- Quantity-aware full-coverage matching: remaining demand is request quantity minus fulfilled quantity; a donation is a candidate only when its quantity covers remaining demand.
+- Quantity-aware full-coverage matching: donors choose one of their available meal listings; remaining demand subtracts confirmed meals and reserved allocations; only a listing that covers the remaining meal request can be matched.
+- Matched quantities are reserved, not counted as received until an admin confirms delivery. Cancelling an allocation releases the reservation.
 - Delivery lifecycle: Available → Assigned → Collected → In transit → Delivered.
 - Admin operations dashboard: sample donor activity, receiver fulfilment, aggregate meals and delivery status changes.
 - Responsive layout and illustrative route preview with sample coordinates.
