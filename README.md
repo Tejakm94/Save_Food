@@ -17,7 +17,7 @@ React/Vite starter for a food-rescue network connecting surplus-food donors (hot
 
 ## Run locally
 
-Node.js 20+ recommended.
+Node.js 22 recommended (Vite 8 requires a recent supported Node 20/22 release).
 
 ```bash
 npm install
@@ -54,6 +54,18 @@ If a receiver needs 100 meals and 20 are fulfilled, remaining demand is 80. A do
 ## Karnataka receiver examples
 
 The directory is seeded for UI demonstration only. Before public listing, independently verify each organisation's legal name, registration, authorised contact, address, beneficiary capacity, food acceptance rules and operating hours. Remove any organisation that has not agreed to participate. Do not imply endorsement from demo inclusion.
+
+## Karnataka organisations to research for onboarding
+
+These are publicly identifiable examples for a future outreach list, not approved FoodBridge receivers or confirmed requests for food. Contact each organisation, verify its current status and food-handling capability, and get written consent before enabling it in the live receiver directory.
+
+- [Akshaya Aahara Foundation, Mysuru](https://www.akshayaaahara.org/) — its site describes surplus-food collection and redistribution.
+- [Sri Sai Spiritual Centre Trust, Bengaluru](https://srisaispiritualcentre.org/donations/sai-prasada/) — its Sai Prasada programme describes meal service for schoolchildren and support to some orphanages and old-age homes.
+- [Sri Ramakrishna Ashrama, Mysuru](https://www.srkmys.org/) — ashrama in Yadavagiri with education and welfare activities.
+- [Avadhoota Datta Peetham / Sri Ganapathy Sachchidananda Ashrama, Mysuru](https://www.sgsashrams.org/about-us) — ashrama in Datta Nagar; its site describes charitable annadana activities.
+- [Angels Orphanage and Mahalakshmi Old Age Home](https://bangalorefoodbank.com/partner_orgs.html) — both appear on Bangalore Food Bank's published beneficiary list. This does not mean they have opted into FoodBridge or currently need food.
+
+The demo demand and fulfilled quantities are synthetic UI data and must not be interpreted as actual requests or service records.
 
 ## Integrations to add
 
